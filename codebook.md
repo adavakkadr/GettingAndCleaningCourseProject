@@ -3,33 +3,8 @@ The run\_analysis.R script is used to prepare the data and process few steps to 
 
 1. Download the dataset and load dplyr library.
 -----------------------------------------------
+using Download.R script to download dataset locally
 
-``` r
-filename <- "GettingAndcleaningDCProject.zip"
-
-# Checking if archieve already exists.
-if (!file.exists(filename)){
-  fileURL <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-  download.file(fileURL, filename, method="curl")
-}  
-
-# Checking if folder exists
-if (!file.exists("UCI HAR Dataset")) { 
-  unzip(filename) 
-}
-library(dplyr)
-```
-
-    ## 
-    ## Attaching package: 'dplyr'
-
-    ## The following objects are masked from 'package:stats':
-    ## 
-    ##     filter, lag
-
-    ## The following objects are masked from 'package:base':
-    ## 
-    ##     intersect, setdiff, setequal, union
 
 2. prepare data frames
 ----------------------
