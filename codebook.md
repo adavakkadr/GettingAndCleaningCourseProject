@@ -1,12 +1,12 @@
 The run\_analysis.R script is used to prepare the data and process few steps to generate summarydata . detail steps are described below
 ---------------------------------------------------------------------------------------------------------------------------------------
 
-1. Download the dataset and load dplyr library.
+1  Download the dataset and load dplyr library.
 -----------------------------------------------
 using Download.R script to download dataset locally
 
 
-2. prepare data frames
+2 prepare data frames
 ----------------------
 
 -   The features selected for this database come from the accelerometer
@@ -33,7 +33,7 @@ using Download.R script to download dataset locally
 | x\_test        | test/X\_test.txt        | 7352 | 561     |
 | y\_test        | test/y\_test.txt        | 7352 | 1       |
 
-3. Merges the training and the test sets to create one data set
+3 Merges the training and the test sets to create one data set
 ---------------------------------------------------------------
 
 -   Using *rbind()* function to combine for the following train and test
