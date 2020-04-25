@@ -77,6 +77,7 @@ data frame
     MeanandStd taking the means of each variable for each activity and
     each subject, after groupped by subject and activity.
 -   Write SummaryData into summarydata.txt file. with the following variables
+
  [1] "Subject"                                                
  [2] "Activity"                                               
  [3] "TimeBodyAccelerometer.Mean...X"                         
